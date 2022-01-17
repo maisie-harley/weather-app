@@ -1,3 +1,51 @@
 h1 {
   color: pink;
+  display: block;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 200;
+  line-height: 28px;
+}
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 3px solid pink;
+  border-radius: 10px;
+  display: block;
+}
+ul {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  color: gray;
+}
+.date {
+  color: gray;
+  font: 200;
+  height: 18.8px;
+  line-height: 20px;
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.description {
+  color: gray;
+  font: 200;
+  height: 18.8px;
+  line-height: 20px;
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.opencode {
+  font: 200;
+  height: 18.8px;
+  line-height: 20px;
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }

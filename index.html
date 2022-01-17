@@ -11,7 +11,9 @@
   </head>
   <body>
     <div class="container">
+      <div class="weather-app-wrapper">
     <div class= "weather-app">
+      <div class="overview">
     <h1>London, UK</h1>
       <ul>
         <li class="date">
@@ -23,8 +25,16 @@
       </ul>
       <div class="row">
         <div class="col-6">
-        <img src= "https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Sunny-icon"/>
-        12°C | °F
+          <div class="clearfix weather-temperature">
+        <img src= "https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Sunny-icon"
+        class="float-left"/>
+        <strong class="celsius">
+        12
+        </strong>
+        <strong class="units">
+        °C | °F
+        </strong>
+     </div>
     </div>
       <div class="col-6">
       <ul>
@@ -41,15 +51,15 @@
         
     </div>
     </div>
+    </div>
+    </div>
      <small class="opencode">
       <a href="https://github.com/maisie-harley/weather-app" target="_blank">
-      Open-source code, </a>
-      <div>
-        by Maisie
-      </div>
+      Open-source code</a>
+      <span>
+         by Maisie
+      </span>
     </small>
-    </div>
-    
   </body>
   <script src="src/app.js"></script>
 </html>

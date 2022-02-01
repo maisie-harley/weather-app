@@ -84,3 +84,13 @@ ul {
 li:first-letter {
   text-transform: capitalize;
 }
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a.active {
+  color: black;
+  cursor: pointer;
+}

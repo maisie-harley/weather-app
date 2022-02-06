@@ -92,5 +92,29 @@ a {
 
 a.active {
   color: black;
-  cursor: pointer;
+  curso
+  r: pointer;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 18px;
+  color: black;
+  opacity: 0.6;
+}
+
+.weather-forecast-temperatures {
+  font-size: 18px;
+  text-align: center;
+}
+
+.weather-forecast-temperature-min {
+  color: black;
+  opacity: 0.6;
+}
+
